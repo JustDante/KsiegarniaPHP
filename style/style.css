@@ -30,7 +30,7 @@ body{
     background-color : #12425e;
     color : white;
     text-shadow: -1px 0 black;
-    text-align: left;
+    text-align: center;
     font-size: 1.5vw;
     text-decoration: none;
     float : left;
@@ -43,8 +43,26 @@ body{
     padding : 0px;
 }
 
+#details{
+    margin : 5px;
+    padding : 5px;
+    text-align: left;
+    font-size: small;
+}
+
+#price{
+    margin : 5px;
+    padding : 5px;
+    text-align: left;
+    font-size: medium;
+}
+
 a{
 color : white;
+text-decoration: none;
+}
+#category li:hover{
+    font-weight: bold;
 }
 
 #list
@@ -62,23 +80,31 @@ color : white;
 #grid_view{
     padding : 5px;
     display : grid;
-    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-columns: 270px 270px 270px 270px;
     grid-gap : 10px;
 }
 
 #product{
     padding : 20px;
     background-color: #0e3044;
+    border-radius: 15px;
+}
+li{
+    padding : 2px;
+    background-color: #0e3044;
     border-radius: 5px;
+    margin: 5px;
 }
 
 img{
    float : left;
+   padding : 5px;
 }
 
 h3{
-    float : right;
+    float : left;
     font-size: 10px;
+    padding : 5px;
 }
 
 #footer{
