@@ -25,6 +25,7 @@
                 <h2>Lista Książek</h2> 
 
                     <div id="grid_view">
+                        <a href="product_page.php">
                         <div id="product">
                             <img src="image.jpg" width="80" />
                             <p id="details">Tytuł  :</p>
@@ -33,6 +34,8 @@
                             <img style="background-color : #216186; border-radius: 5px; margin : 5px; margin-right : 10px;" src="cart.png" width="20"/>
                             <p id="price">22,50 zł</p>
                         </div>
+                        </a>
+                        <a href="product_page.php">
                         <div id="product">
                             <img src="image.jpg" width="80" />
                             <p id="details">Tytuł  :</p>
@@ -41,6 +44,8 @@
                             <img style="background-color : #216186; border-radius: 5px; margin : 5px; margin-right : 10px;" src="cart.png" width="20"/>
                             <p id="price">22,50 zł</p>
                         </div>
+                        </a>
+                        <a href="product_page.php">
                         <div id="product">
                             <img src="image.jpg" width="80" />
                             <p id="details">Tytuł  :</p>
@@ -49,6 +54,8 @@
                             <img style="background-color : #216186; border-radius: 5px; margin : 5px; margin-right : 10px;" src="cart.png" width="20"/>
                             <p id="price">22,50 zł</p>
                         </div>
+                        </a>
+                        <a href="product_page.php">
                         <div id="product">
                             <img src="image.jpg" width="80" />
                             <p id="details">Tytuł  :</p>
@@ -57,6 +64,8 @@
                             <img style="background-color : #216186; border-radius: 5px; margin : 5px; margin-right : 10px;" src="cart.png" width="20"/>
                             <p id="price">22,50 zł</p>
                         </div>
+                        </a>
+                        <a href="product_page.php">
                         <div id="product">
                             <img src="image.jpg" width="80" />
                             <p id="details">Tytuł  :</p>
@@ -65,6 +74,8 @@
                             <img style="background-color : #216186; border-radius: 5px; margin : 5px; margin-right : 10px;" src="cart.png" width="20"/>
                             <p id="price">22,50 zł</p>
                         </div>
+                        </a>
+                        <a href="product_page.php">
                         <div id="product">
                             <img src="image.jpg" width="80" />
                             <p id="details">Tytuł  :</p>
@@ -73,6 +84,8 @@
                             <img style="background-color : #216186; border-radius: 5px; margin : 5px; margin-right : 10px;" src="cart.png" width="20"/>
                             <p id="price">22,50 zł</p>
                         </div>
+                        </a>
+                        <a href="product_page.php">
                         <div id="product">
                             <img src="image.jpg" width="80" />
                             <p id="details">Tytuł  :</p>
@@ -81,6 +94,8 @@
                             <img style="background-color : #216186; border-radius: 5px; margin : 5px; margin-right : 10px;" src="cart.png" width="20"/>
                             <p id="price">22,50 zł</p>
                         </div>
+                        </a>
+                        <a href="product_page.php">
                         <div id="product">
                             <img src="image.jpg" width="80" />
                             <p id="details">Tytuł  :</p>
@@ -89,6 +104,8 @@
                             <img style="background-color : #216186; border-radius: 5px; margin : 5px; margin-right : 10px;" src="cart.png" width="20"/>
                             <p id="price">22,50 zł</p>
                         </div>
+                        </a>
+                        <a href="product_page.php">
                         <div id="product">
                             <img src="image.jpg" width="80" />
                             <p id="details">Tytuł  :</p>
@@ -97,6 +114,8 @@
                             <img style="background-color : #216186; border-radius: 5px; margin : 5px; margin-right : 10px;" src="cart.png" width="20"/>
                             <p id="price">22,50 zł</p>
                         </div>
+                        </a>
+                        <a href="product_page.php">
                         <div id="product">
                             <img src="image.jpg" width="80" />
                             <p id="details">Tytuł  :</p>
@@ -105,6 +124,8 @@
                             <img style="background-color : #216186; border-radius: 5px; margin : 5px; margin-right : 10px;" src="cart.png" width="20"/>
                             <p id="price">22,50 zł</p>
                         </div>
+                        </a>
+                         <a href="product_page.php">
                         <div id="product">
                             <img src="image.jpg" width="80" />
                             <p id="details">Tytuł  :</p>
@@ -113,6 +134,8 @@
                             <img style="background-color : #216186; border-radius: 5px; margin : 5px; margin-right : 10px;" src="cart.png" width="20"/>
                             <p id="price">22,50 zł</p>
                         </div>
+                        </a>
+                        <a href="product_page.php">
                         <div id="product">
                             <img src="image.jpg" width="80" />
                             <p id="details">Tytuł  :</p>
@@ -121,6 +144,7 @@
                             <img style="background-color : #216186; border-radius: 5px; margin : 5px; margin-right : 10px;" src="cart.png" width="20"/>
                             <p id="price">22,50 zł</p>
                         </div>
+                        </a>
                     </div>
 
                 </div>
