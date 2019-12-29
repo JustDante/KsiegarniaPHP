@@ -5,7 +5,7 @@
         <link rel="stylesheet" type="text/css" href="style/style.css" />
     </head>
     <body>
-        <div id="container">
+        <div id="container" >
 
             <div id="header">
                 <h1>Księgarnia - Kup Sobie Kniszke !<h1>
