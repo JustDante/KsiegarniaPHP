@@ -2,15 +2,15 @@
 <html>
     <head>
         <title>Księgarnia</title>
-        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" type="text/css" href="style/style.css" />
     </head>
     <body>
         <div id="container">
-
+            <a href="index.php">
             <div id="header">
                 <h1>Księgarnia - Kup Sobie Kniszke !<h1>
             </div>
-
+            </a>
             <div id="content">
 
                 <div id="category">

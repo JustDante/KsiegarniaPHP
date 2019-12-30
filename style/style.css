@@ -1,5 +1,5 @@
 body{
-    background-color:#888787;
+    background-color: #888787;
 }
 
 #header{
@@ -9,10 +9,12 @@ body{
     text-align: center;
     font-size: 1.5vw;
     padding: 5px;
-    margin: 10px; 
+    margin: 10px;
+    border-radius: 15px;
 }
 
 #container{
+    border-radius: 15px;
     background-color: #216186;
     margin-left: auto;
     margin-right: auto;
@@ -21,12 +23,14 @@ body{
 }
 
 #content{
+    border-radius: 15px;
     display : grid;
     grid-template-columns: 20% 80%;
 }
 
 
 #category{
+    border-radius: 15px;
     background-color : #12425e;
     color : white;
     text-shadow: -1px 0 black;
@@ -67,6 +71,7 @@ text-decoration: none;
 
 #list
 {
+    border-radius: 15px;
     background-color : #12425e;
     color : white;
     text-shadow: -1px 0 black;
@@ -82,6 +87,62 @@ text-decoration: none;
     display : grid;
     grid-template-columns: 270px 270px 270px 270px;
     grid-gap : 10px;
+}
+
+#grid_view_orders{
+    padding : 5px;
+    margin :20px;
+    display : grid;
+    grid-gap : 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    float:center;
+}
+
+#order_product{
+    background-color: #1f597a;
+    height : 180px;
+    padding : 5px;
+    float : left;
+    margin : 5px;
+    border-radius: 15px;
+}
+
+#order{
+    background-color: #1f597a;
+    height : 40px;
+    padding : 5px;
+    margin : 5px;
+    border-radius: 15px;
+    margin-left: 190px;
+    margin-right:190px;
+    font-size: 20px;
+}
+.order_element{
+    background-color: #216186;
+    padding : 10px;
+    border-radius: 15px;
+    float : left;
+    margin : 10px;
+}
+.order_detail{
+    background-color: #216186;
+    padding : 10px;
+    vertical-align: middle;
+    border-radius: 15px;
+    float : left;
+    width : 170px;
+ 
+}
+.order_price{
+    background-color: #216186;
+    padding : 10px;
+    border-radius: 15px;
+    margin-bottom : 25px; 
+    margin-right : 30px; 
+    font-size: larger; 
+    float : right;
+    vertical-align: middle;
 }
 
 #product{
@@ -100,10 +161,12 @@ li{
     margin: 5px;
 }
 
+
 #title_author{
     width:550px;
     text-align: left;
     float: left;
+
 }
 
 img{
@@ -111,11 +174,6 @@ img{
    padding : 5px;
 }
 
-h3{
-    float : left;
-    font-size: 10px;
-    padding : 5px;
-}
 
 #footer{
     background-color : #12425e;
@@ -139,6 +197,7 @@ p{
 h1,h2 {
     display:block;
 }
+
 
   .tabs {
 
@@ -182,8 +241,4 @@ h1,h2 {
     float:left;
     padding : 15px;
     margin-bottom: 20px;
-  }
-
-  p{
-
   }
