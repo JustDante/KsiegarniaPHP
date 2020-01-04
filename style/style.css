@@ -1,0 +1,244 @@
+body{
+    background-color: #888787;
+}
+
+#header{
+    background-color : #12425e;
+    color : white;
+    text-shadow: -2px 0 black;
+    text-align: center;
+    font-size: 1.5vw;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+#container{
+    border-radius: 15px;
+    background-color: #216186;
+    margin-left: auto;
+    margin-right: auto;
+    width : auto;
+    padding : 5px;
+}
+
+#content{
+    border-radius: 15px;
+    display : grid;
+    grid-template-columns: 20% 80%;
+}
+
+
+#category{
+    border-radius: 15px;
+    background-color : #12425e;
+    color : white;
+    text-shadow: -1px 0 black;
+    text-align: center;
+    font-size: 1.5vw;
+    text-decoration: none;
+    float : left;
+    padding : 10px;
+    margin : 10px;
+}
+
+#category ul{
+    list-style-type: none;
+    padding : 0px;
+}
+
+#details{
+    margin : 5px;
+    padding : 5px;
+    text-align: left;
+    font-size: small;
+}
+
+#price{
+    margin : 5px;
+    padding : 5px;
+    text-align: left;
+    font-size: medium;
+}
+
+a{
+color : white;
+text-decoration: none;
+}
+#category li:hover{
+    font-weight: bold;
+}
+
+#list
+{
+    border-radius: 15px;
+    background-color : #12425e;
+    color : white;
+    text-shadow: -1px 0 black;
+    text-align: center;
+    font-size: 1.5vw;
+    float: right;
+    margin : 10px;
+    margin-left: 0px;
+    width : auto;
+}
+#grid_view{
+    padding : 5px;
+    display : grid;
+    grid-template-columns: 270px 270px 270px 270px;
+    grid-gap : 10px;
+}
+
+#grid_view_orders{
+    padding : 5px;
+    margin :20px;
+    display : grid;
+    grid-gap : 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    float:center;
+}
+
+#order_product{
+    background-color: #1f597a;
+    height : 180px;
+    padding : 5px;
+    float : left;
+    margin : 5px;
+    border-radius: 15px;
+}
+
+#order{
+    background-color: #1f597a;
+    height : 40px;
+    padding : 5px;
+    margin : 5px;
+    border-radius: 15px;
+    margin-left: 190px;
+    margin-right:190px;
+    font-size: 20px;
+}
+.order_element{
+    background-color: #216186;
+    padding : 10px;
+    border-radius: 15px;
+    float : left;
+    margin : 10px;
+}
+.order_detail{
+    background-color: #216186;
+    padding : 10px;
+    vertical-align: middle;
+    border-radius: 15px;
+    float : left;
+    width : 170px;
+ 
+}
+.order_price{
+    background-color: #216186;
+    padding : 10px;
+    border-radius: 15px;
+    margin-bottom : 25px; 
+    margin-right : 30px; 
+    font-size: larger; 
+    float : right;
+    vertical-align: middle;
+}
+
+#product{
+    padding : 20px;
+    background-color: #0e3044;
+    border-radius: 15px;
+}
+
+#product:hover{
+    background-color: #1f597a;
+}
+li{
+    padding : 2px;
+    background-color: #0e3044;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+
+#title_author{
+    width:550px;
+    text-align: left;
+    float: left;
+
+}
+
+img{
+   float : left;
+   padding : 5px;
+}
+
+
+#footer{
+    background-color : #12425e;
+    margin : 10px;
+    color : white;
+    clear : both;
+    text-align: center;
+}
+
+#cover_large {
+    width :350px;
+    padding :40px;
+    float : left;
+    }
+
+p{
+    text-align: justify;
+    padding :0px;
+    padding-top: 0px;
+}
+h1,h2 {
+    display:block;
+}
+
+
+  .tabs {
+
+    margin-top: 20px;
+    padding: 0 20px;
+    text-justify: auto;
+  }
+  .tabs input {
+    display: none;
+  }
+  .tabs label {
+    display: block;
+    padding: 16px 12px 16px 12px;
+    width: 15%; /* =100/tabs number */
+    text-align: center;
+    text-justify: auto;
+    float : left;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .tabs label:hover {
+    cursor: pointer;
+  }
+  .tabs input:checked + label {
+   
+    border-width: 1px 1px 0 1px;
+    background-color: #0e3044;
+    text-align: center;
+    float : left;
+  }
+  .tabs #tab1:checked ~ .content #content1,
+  .tabs #tab2:checked ~ .content #content2{
+    display: block;
+    text-align: left;
+    float: left;
+  }
+  .tabs .content > div {
+    width : 650px;
+    display: none;
+    background-color: #0e3044;
+    float:left;
+    padding : 15px;
+    margin-bottom: 20px;
+  }
